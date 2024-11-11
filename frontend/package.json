@@ -1,0 +1,19 @@
+{
+    "name": "frontend",
+    "private": "true",
+    "type": "module",
+    "scripts": {
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@dfinity/agent": "2.1.2",
+        "@dfinity/auth-client": "2.1.2",
+        "@dfinity/candid": "2.1.2",
+        "@dfinity/principal": "2.1.2"
+    },
+    "devDependencies": {
+        "dotenv": "16.4.5",
+        "vite": "5.4.6",
+        "vite-plugin-environment": "1.1.3"
+    }
+}
